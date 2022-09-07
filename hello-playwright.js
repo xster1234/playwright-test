@@ -6,7 +6,7 @@ const { chromium } = require('playwright');
   });
   const context = await browser.newContext();
 
-  // Open new page
+  // Open new page on wiki
   const page = await context.newPage();
 
   // Go to https://www.wikipedia.org/
